@@ -3,7 +3,7 @@ A wearable assistive device that translates hand gestures into audible speech us
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [About the Project](#-about-the-project)  
 - [Tech Stack](#️-tech-stack)  
 - [File Structure](#-file-structure)  
@@ -20,7 +20,7 @@ A wearable assistive device that translates hand gestures into audible speech us
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 ### Aim  
 FlexSonic aims to bridge the communication gap for speech-impaired individuals by converting hand gestures into audible phrases.
@@ -28,7 +28,7 @@ FlexSonic aims to bridge the communication gap for speech-impaired individuals b
 ### Description  
 The glove uses **flex sensors** (to detect finger bending) and an **MPU6050 IMU** (to capture orientation). Sensor data is processed on an **ESP32**, which runs a simple **ML model (K-Means clustering)** to classify gestures. The recognized gesture is mapped to a **pre-recorded audio file** on a **DFPlayer Mini**, producing real-time speech output through a speaker.  
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Hardware:**  
 - ESP32  
@@ -50,7 +50,7 @@ The glove uses **flex sensors** (to detect finger bending) and an **MPU6050 IMU*
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```plaintext
 Flexsonic
@@ -95,9 +95,9 @@ Flexsonic
           
 
 ```
-## 🚀 Getting Started  
+## Getting Started  
 
-### 📌 Prerequisites  
+### Prerequisites  
 ```
 - **ESP-IDF v4.0+** (or Arduino IDE with ESP32 boards installed)  
 - **Python 3.8+**  
